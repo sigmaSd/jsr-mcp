@@ -34,7 +34,10 @@ deno run -A server.ts
 
 # Exmaple
 
-Here is an example chat with Zed using this mcp Server
+Here is an example chat with Zed using this mcp Server:
+
+![image](https://github.com/user-attachments/assets/09a4276e-5193-4312-bfd9-c1ff94956217)
+![image](https://github.com/user-attachments/assets/9e91e583-a468-4143-aa9d-a60a7d02b8db)
 
 
 ## License
