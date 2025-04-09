@@ -1,10 +1,13 @@
 # JSR-MCP Server
 
-A Model Context Protocol (MCP) server that provides access to JSR (JavaScript Registry) module documentation.
+A Model Context Protocol (MCP) server that provides access to JSR (JavaScript
+Registry) module documentation.
 
 ## Overview
 
-This server provides an MCP interface for retrieving documentation for JSR modules. It uses Deno's document API to fetch and serve module documentation on request.
+This server provides an MCP interface for retrieving documentation for JSR
+modules. It uses Deno's document API to fetch and serve module documentation on
+request.
 
 ## Features
 
@@ -38,7 +41,6 @@ Here is an example chat with Zed using this mcp Server:
 
 ![image](https://github.com/user-attachments/assets/09a4276e-5193-4312-bfd9-c1ff94956217)
 ![image](https://github.com/user-attachments/assets/9e91e583-a468-4143-aa9d-a60a7d02b8db)
-
 
 ## License
 
