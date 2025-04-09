@@ -1,0 +1,6 @@
+{
+  "name": "@sigmasd/jsr-mcp",
+  "version": "1.0.0",
+  "exports": "./server.ts",
+  "license": "MIT"
+}
