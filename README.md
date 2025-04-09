@@ -32,6 +32,10 @@ Allows clients to request documentation for any JSR module.
 deno run -A server.ts
 ```
 
+# Exmaple
+
+Here is an example chat with Zed using this mcp Server
+
 
 ## License
 
