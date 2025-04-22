@@ -12,7 +12,7 @@ const server = new McpServer({
 server.tool("jsr_docs", {
   module: z.string().describe("The module to document, example @std/path"),
 }, async ({ module }) => {
-  const result = await new Deno.Command("deno", {
+  const result = await new Deno.Command(Deno.execPath(), {
     args: ["doc", "jsr:" + module],
     env: { NO_COLOR: "1" },
   }).output().then((r) => new TextDecoder().decode(r.stdout));
